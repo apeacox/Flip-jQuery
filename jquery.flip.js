@@ -150,7 +150,8 @@ $.fn.flip = function(settings){
 			speed: settings.speed || 500,
             onBefore: settings.onBefore || function(){},
             onEnd: settings.onEnd || function(){},
-            onAnimation: settings.onAnimation || function(){}
+            onAnimation: settings.onAnimation || function(){},
+            dontChangeColor: settings.dontChangeColor || false
 		};
 		
 		$this
